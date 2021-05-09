@@ -31,13 +31,13 @@ The output layer of the network contains 10 neurons, having representing values 
 NOTE: The input pixels are greyscales, with value 0.0 for white and 1.0 for black, and in between values representing gradually darkening shades of grey.
 
 Training on 60,000 smaples of MNIST handwritten dataset n Testing on 10,000 smaples.
-*Using one of the most powerful supervised deep learning techniques is the Convolutional Neural Networks
-*To visualize these numbers, we can get help from matplotlib.
-*To be able to use the dataset in Keras API, we need 4-dims NumPy arrays. However, as we see above, our array is 3-dims. In addition, we must normalize our data as it is always required in neural network models.
-*I will use the most straightforward API which is Keras. Therefore, I will import the Sequential Model from Keras and add Conv2D, MaxPooling, Flatten, Dropout, and Dense layers.
-*set an optimizer with a given loss function that uses a metric. Then, we can fit the model by using our train data.
-*We achieved 98.5% accuracy with such a basic model.
+* Using one of the most powerful supervised deep learning techniques is the Convolutional Neural Networks
+* To visualize these numbers, we can get help from matplotlib.
+* To be able to use the dataset in Keras API, we need 4-dims NumPy arrays. However, as we see above, our array is 3-dims. In addition, we must normalize our data as it is always required in neural network models.
+* I will use the most straightforward API which is Keras. Therefore, I will import the Sequential Model from Keras and add Conv2D, MaxPooling, Flatten, Dropout, and Dense layers.
+* set an optimizer with a given loss function that uses a metric. Then, we can fit the model by using our train data.
+* We achieved 98.5% accuracy with such a basic model.
 
-Images for testing
+Images for testing->
 five.png and eigth.png
 
